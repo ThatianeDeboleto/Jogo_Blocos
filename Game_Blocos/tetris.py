@@ -298,7 +298,7 @@ class Tetris(object):
         self.draw_board()
         for blk in self.blk_list:
             blk.draw()
-        # Draw the screen buffer
+        
         pygame.display.flip()
 
 if __name__ == "__main__":
